@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
         with:
-          token: ${{{{ secrets.GITHUB_TOKEN }}}}
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python 3.10
@@ -43,6 +43,6 @@ jobs:
         env:
           GH_USER: IshaanYK
           GH_EMAIL: isen97509@gmail.com
-          CYCLES: ${{{{ github.event.inputs.test_cycles }}}}
+          CYCLES: ${{ github.event.inputs.test_cycles }}
         run: |
           python scripts/ci_runner.py
