@@ -1,12 +1,12 @@
 {
   "benchmarks": {
-    "chunk_list_10k_ops_sec": 135544.388,
-    "url_query_stringify_latency_us": 4.2048,
-    "group_by_hash_throughput_mb_s": 130.7816
+    "chunk_list_10k_ops_sec": 136266.9814,
+    "url_query_stringify_latency_us": 4.1821,
+    "group_by_hash_throughput_mb_s": 132.1451
   },
   "status": "passing",
   "web_standards_compliance": 100,
-  "last_evaluated": "2026-11-22T15:29:18Z",
-  "evaluation_cycle": 5004,
-  "telemetry_signature": "a71d967fb73d"
+  "last_evaluated": "2026-11-22T15:33:18Z",
+  "evaluation_cycle": 5005,
+  "telemetry_signature": "b3d6233c2147"
 }
